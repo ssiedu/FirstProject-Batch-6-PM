@@ -1,4 +1,5 @@
 import shapes.*;
+import shapes.lines.*;
 
 //import shapes.Circle;
 //import shapes.Cylinder;
@@ -23,6 +24,8 @@ public class First {
 		
 		calculations.Addition ad=new calculations.Addition();
 		ad.sum(10, 20);
+		
+		Square sq=new Square();
 	}
 
 }
